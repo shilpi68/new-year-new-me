@@ -1,0 +1,132 @@
+/* common share style */
+body {
+    font-family: 'Lato',sans-serif;
+    font-family:'open sans',sans-serif ;
+}
+
+/* header related styles */
+.header{
+    background-color: darkgrey;
+    width: 1200px;
+    height: 700px;
+    nav {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+
+    }
+    
+}
+.banner{
+    background-image: url('../images/.banner/banner1');
+}
+
+.banner-greeting{
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+.banner-title{
+    color: #444343;
+    text-align: right;
+    font-family: work sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-pramary {
+    border-radius: 3px;
+    background: #FD6E0A;
+    border: 0;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+   
+    
+
+}
+/* main section Styles */
+main{
+    max-width: 1140px;
+}
+.person pic{
+    width: 450px;
+    height: 900px;
+}
+
+main section{
+    margin-top: 130px;
+}
+.about{
+    display: flex;
+    padding: 110px;
+    
+}
+.section-title{
+    color:#151414 ;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.section-description{
+    color:#444343 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.place{
+    display: flex;
+}
+ .bode{
+    text-align: center;
+    margin-top: 20px;
+
+ }
+ /* skill related styles */
+ .skills-container{
+    display: flex;
+
+ }
+ .skill{
+    padding: 30pxS;
+ }
+ .skill-description{
+    color: #737273; 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+ }
+ .skill-title{
+    color:#151414 ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+   /* footer style */
+   footer{
+    display: flex;
+    gap:100px;
+    background: #151414;S
+    margin-top: 100px;
+    padding: 130px 200px;
+    color: white;
+   }
+   .footer-colum{
+    width: 100%;
+   }
+   .contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding:18px 35px ;
+   }
+.red{
+    color: red;
+}
